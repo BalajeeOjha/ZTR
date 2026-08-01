@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: devsecops
+data:
+  APP_NAME: "AI DevSecOps Platform"
+  ENVIRONMENT: "Development"
+  LOG_LEVEL: "INFO"
+  COMPANY: "CDAC"
